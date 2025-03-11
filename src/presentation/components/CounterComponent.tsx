@@ -1,5 +1,5 @@
 'use client'
-import { useCounterStore } from "@/store/counter-store"
+import { useCounterStore } from "@/presentation/store/counter-store"
 
 export const CounterComponent = () => {
   

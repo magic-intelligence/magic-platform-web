@@ -2,10 +2,10 @@ import { Metadata } from "next"
 import Image from "next/image"
 import Logo from "@/assets/images/MagicLogo.png";
 import { IoKey, IoMail } from "react-icons/io5";
-import { TextInput } from "@/components/inputs";
-import { LabelInput } from "@/components/labels";
-import { FloatMessage } from "@/components/messages";
-import { Button } from "@/components/buttons";
+import { TextInput } from "@/presentation/components/ui/inputs";
+import { LabelInput } from "@/presentation/components/ui/labels";
+import { FloatMessage } from "@/presentation/components/ui/messages";
+import { Button } from "@/presentation/components/ui/buttons";
 
 export const metadata: Metadata = {
   title: "Login",

@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Logo from "@/assets/images/MagicLogo.png"
-import { CounterComponent } from "@/components/CounterComponent";
+import Logo from "@/presentation/assets/images/MagicLogo.png"
+import { CounterComponent } from "@/presentation/components/CounterComponent";
 
 export default function Home() {
 

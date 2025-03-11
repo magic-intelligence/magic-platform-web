@@ -1,7 +1,7 @@
-import { Button } from '@/components/buttons';
-import { TextInput, SelectMenu } from '@/components/inputs';
-import { LabelInput } from '@/components/labels/LabelInput';
-import { LayoutNewAcount } from '@/components/new-acount/LayoutNewAcount';
+import { Button } from '@/presentation/components/ui/buttons';
+import { TextInput, SelectMenu } from '@/presentation/components/ui/inputs';
+import { LabelInput } from '@/presentation/components/ui/labels/LabelInput';
+import { LayoutNewAcount } from '@/presentation/components/new-acount/LayoutNewAcount';
 import { Metadata } from 'next';
 
 const roles = [
